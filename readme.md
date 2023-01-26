@@ -3,8 +3,8 @@
 ## Objetivos 
 
 - [X] Desenvolver cronômetro de 25 minutos
-- [ ] Desenvolver uma interface 
-- [ ] Mapeamento do tempo de 25 minutos 
+- [X] Desenvolver uma ativador do pomodoro (botão)
+- [ ] Conectar o ativador com a função de criar cronômetro
 - [ ] Exibir tempo restante
 - [ ] Desenvolver um segundo cronômetro para 5 minutos
 - [ ] Mostrar a contagem de pomodoros
