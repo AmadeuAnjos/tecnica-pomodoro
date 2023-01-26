@@ -2,7 +2,7 @@
 
 ## Objetivos 
 
-- [x] Desenvolver cronômetro de 25 minutos
+- [X] Desenvolver cronômetro de 25 minutos
 - [ ] Desenvolver uma interface 
 - [ ] Mapeamento do tempo de 25 minutos 
 - [ ] Exibir tempo restante
