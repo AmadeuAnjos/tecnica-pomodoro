@@ -5,7 +5,7 @@
 - [X] Desenvolver cronômetro de 25 minutos
 - [X] Desenvolver uma ativador do pomodoro (botão)
 - [X] Conectar o ativador com a função de criar cronômetro
-- [ ] Exibir aviso ao fim do cronometro
+- [X] Exibir aviso ao fim do cronometro
 - [ ] Desenvolver um segundo cronômetro para 5 minutos
 - [ ] Mostrar a contagem de pomodoros
 - [ ] Após 4 comodoros ativar intervalo de 15 minutos
