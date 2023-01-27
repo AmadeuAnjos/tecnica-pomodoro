@@ -6,6 +6,10 @@
 - [X] Desenvolver uma ativador do pomodoro (botão)
 - [X] Conectar o ativador com a função de criar cronômetro
 - [X] Exibir aviso ao fim do cronometro
+- [X] Desenvolver a lógica do contador
+- [ ] Verificar tempo restante
+- [ ] Criar o componente do cronômetro na tela
+- [ ] Exibir na tela tempo restante e cronômetro
 - [ ] Desenvolver um segundo cronômetro para 5 minutos
 - [ ] Mostrar a contagem de pomodoros
 - [ ] Após 4 comodoros ativar intervalo de 15 minutos
