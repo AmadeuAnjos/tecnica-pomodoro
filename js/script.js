@@ -5,6 +5,7 @@ start.addEventListener('click', () => {
     console.log('disparado com sucesso')
     setTimeout(() => {
         console.log('Teste OK')
+        alert('Seu tempo acabou, vá descansar !')
     }, secPomodoro);
 })
 
