@@ -35,8 +35,14 @@ body {
     font-size: 17px;
     font-weight: 700;
     color: rgb(12, 116, 148);
+    cursor: pointer;
 }
 
 #start:hover {
     background: rgb(184, 186, 187);
+}
+
+.cronometro {
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
