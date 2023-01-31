@@ -8,8 +8,8 @@
 - [X] Exibir aviso ao fim do cronometro
 - [X] Desenvolver a lógica do contador
 - [X] Verificar tempo restante
-- [ ] Criar o componente do cronômetro na tela
-- [ ] Exibir na tela tempo restante e cronômetro
+- [X] Criar o componente do cronômetro na tela
+- [X] Exibir tempo restante do cronômetro
 - [ ] Desenvolver um segundo cronômetro para 5 minutos
 - [ ] Mostrar a contagem de pomodoros
 - [ ] Após 4 comodoros ativar intervalo de 15 minutos

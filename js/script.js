@@ -1,5 +1,6 @@
-const milissegundosPomodoro = 4000 //25*60*1000 = 1500000 = 25 minutos
+const milissegundosPomodoro = 70000 //25*60*1000 = 1500000 = 25 minutos
 const start = document.querySelector('#start')
+const cronometro = document.querySelector('#cronometro')
 let milissegundosRestantes = milissegundosPomodoro - 1000
 let contador
 
@@ -14,15 +15,23 @@ start.addEventListener('click', () => {
 function contadorDeSegundos() {
 
     if (milissegundosRestantes == 0) {
-        console.log("Tricolor")
-        alert("Seu tempo acabou, vá descansar !")
+        cronometro.textContent = "00:00"
+        console.log("Seu tempo acabou, vá descansar !")
 
         clearInterval(contador)
     } else {
-        console.log("restam", (milissegundosRestantes / 1000))
+        cronometro.textContent = formatadorDoTempo(milissegundosRestantes / 1000)
     }
 
     milissegundosRestantes -= 1000
 }
 
+function formatadorDoTempo(tempo) {
+    const minutos = Math.floor(tempo / 60)
+    const segundos = tempo % 60
+    return (minutos.toString().padStart(2, '0') + ":" + segundos.toString().padStart(2, '0'))
+}
 
+function pause() {
+    clearInterval(contadorDeSegundos())
+}

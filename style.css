@@ -26,7 +26,8 @@ body {
     margin: 0 5vw;
 }
 
-#start {
+#start,
+#pause {
     background: rgb(218, 224, 226);
     border: none;
     border-bottom: 3px solid #7c7c7c;
